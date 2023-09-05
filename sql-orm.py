@@ -6,7 +6,7 @@ from sqlalchemy.orm import sessionmaker
 
 
 # executing the instructions from our localhost "chinook" db
-db = create_engine("postgresql://postgres:litStunt01@localhost:5432/chinook")
+db = create_engine("postgresql://postgres:PASSWORD@localhost:5432/chinook")
 base = declarative_base()
 
 

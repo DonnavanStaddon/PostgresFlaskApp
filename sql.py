@@ -4,7 +4,7 @@ import psycopg2
 # connection = psycopg2.connect(database="chinook")
 
 connection = psycopg2.connect(
-    database='chinook', user='postgres', password='litStunt01')
+    database='chinook', user='postgres', password='PASSWORD')
 
 # build a cursor object of the database like an array in js
 cursor = connection.cursor()
